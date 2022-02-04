@@ -1,1 +1,2 @@
+SOURCE_PATH=$(PWD)
 docker run --rm -it -v $SOURCE_PATH:/var/data jdk17-with-ant bash
